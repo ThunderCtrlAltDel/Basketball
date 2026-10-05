@@ -1,0 +1,67 @@
+@font-face {
+    src: url(digital-7.regular.ttf);
+    font-family: Digital7;
+}
+
+#guest-score, #home-score {
+    display: flex;
+    flex-direction: column;
+    font-family: Digital7;
+    color: #FF4968;
+    background-color: black;
+    height: 100px;
+    width: 150px;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    font-size: 80px;
+}
+
+
+button {
+    margin-top: 30px;
+    width: 50px;
+    height: 50px;
+    font-family: Digital7;
+    background-color: #1B244A;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #9AABD8;
+}
+
+
+body {
+    display: flex;
+    color: white;
+    background-color: #1B244A;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.container {
+    display: flex;
+    gap: 100px;
+    justify-content: space-around;
+}
+
+.score-container {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
